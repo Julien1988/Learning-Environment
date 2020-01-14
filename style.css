@@ -1,0 +1,44 @@
+.header {
+    min-width: 25em;
+    background-color: #FFDB3D;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+main {
+    margin-top: -2em;
+}
+
+.title {
+    text-align: center;
+    color: #8430FF;
+    
+}
+
+.main__section-primary {
+    background-color: #2CE84A;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.main__section-video {
+    background-color: #2F81FA;
+    margin-top: -2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.main__section-secondary {
+    background-color: #2CE84A;
+    margin-top: -2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+.footer {
+    background-color: #E8492C;
+    margin-top: -2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
