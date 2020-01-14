@@ -21,10 +21,33 @@ p {
     font-style: normal;
     font-weight: normal;
     color: white;
+    line-height: 1.5em;
 }
 
 ul {
     color: white;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+
+i {
+    color: rgb(255, 168, 7);
+}
+
+a {
+    color: rgb(255, 168, 7);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+span {
+    font-weight: bold;
 }
 
 
@@ -45,6 +68,12 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     background-color: rgb(114, 114, 114);
+}
+
+.main-citation {
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
 }
 
 .header__div {
@@ -138,10 +167,19 @@ color: #FFFFFF;
 }
 
 .footer {
-    background-color: #E8492C;
+    background-color: rgb(224, 224, 224);
     margin-top: -2em;
     padding-top: 2em;
     padding-bottom: 2em;
 
     
+}
+
+.footer__contact__list {
+    color: black;
+    
+}
+
+.footer__contact__list__item {
+    padding-bottom: 1em;
 }
