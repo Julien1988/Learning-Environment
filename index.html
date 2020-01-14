@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
 
     <!-- HEADER -->
 
 <header class="header">
-    <h1 class="title">Abri de Jour de Liège</h1>
+    <div class="header__div">
+
+        <h1 class="title">Abri de Jour de Liège</h1>
+    </div>
+    
 </header>
 
 <!-- MAIN -->
@@ -24,20 +28,20 @@
     <section class="main__section-primary">
 
         
-        <container class="main__container">
+        <div class="main__container first-container">
             <h2 class="main__container__title">Bref descriptif des activités</h2>
             <p class="main__container__text"> <span>L’Abri de Jour de Liège</span> est un accueil de jour inconditionnel pour personnes adultes en difficultés. Quatre missions sont priori-taires : l’accueil, la réponse aux besoins pri-maires, l’insertion sociale et l’orientation.</p>
-        </container>
+        </div>
         
-        <container class="main__container">
+        <div class="main__container second-container">
             <h2 class="main__container__title">Tâches qui requièrent l’aide de volontaires</h2>
             <ul class="main__container__list">
                 <li class="main__container__list__item"> <span class ="main__container__list__item__span">Tâches relationnelles :</span> présence en salle, contact avec les usagers et participation aux activités sociales ;</li>
                 <li class="main__container__list__item"> <span class="main__container__list__item__span">Tâches fonctionnelles :</span> préparation des repas (repas chauds et tartines), service en salle, tenue du bar, vaisselle, gestion du magasin de seconde main...</li>
             </ul>
-        </container>
+        </div>
         
-        <container class="main__container">
+        <div class="main__container first-container">
             <h2 class="main__container__title">Profil(s) des volontaires recherchés</h2>
             <ul class="main__container__list">
                 <li class="main__container__list__item">Être bien dans sa peau ;</li>
@@ -48,22 +52,22 @@
                 <li class="main__container__list__item">Appliquer les décisions prises en commun ;</li>
                 <li class="main__container__list__item">Participer aux réunions.</li>
             </ul>
-        </container>
+        </div>
     </section>
 
     <!-- SECTION VIDEO -->
     <!-- video source : https://www.youtube.com/watch?v=HESw-gva2aA -->
 
     <section class="main__section-video">
-        <container class="main__section-video__container">
+        <div class="main__section-video__container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HESw-gva2aA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </container>
+        </div>
     </section>
 
     <!-- SECTION SECONDAIRE -->
 
     <section class="main__section-secondary">
-        <container class="main__container">
+        <div class="main__container section-bot">
             <h2 class="main__container__title">D'autres associations :</h2>
             <ul class="main__container__list">
                 <li class="main__container__list__item">
@@ -83,7 +87,7 @@
                 </li>
 
             </ul>
-        </container>
+        </div>
     </section>
 
 </main>
@@ -91,7 +95,7 @@
 <!-- FOOTER -->
 
 <footer class="footer">
-    <container class="footer__contact">
+    <div class="footer__contact">
         <ul class="footer__contact__list">
             <li class="footer__contact__list__item"><i class="fa fa-map-marker" aria-hidden="true"></i> Rue Morinval, 27 - 4000 Liège</li>
             <li class="footer__contact__list__item"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Mme Gisèle WEIMANN
@@ -100,7 +104,7 @@
             <li class="footer__contact__list__item"><i class="fa fa-laptop" aria-hidden="true"></i> <a href="http://www.aliss.be/node/1989">Site Web</a></li>
             <li class="footer__contact__list__item"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:abridejour@gotmail.com"></a>E-mail</li>
         </ul>
-    </container>
+    </div>
 </footer>
 
 <!-- FONT AWESOME 4.7 -->

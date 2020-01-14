@@ -1,38 +1,139 @@
+
+body {
+    margin: 0em;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+
+
 .header {
     min-width: 25em;
-    background-color: #FFDB3D;
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
-
-main {
-    margin-top: -2em;
-}
-
-.title {
-    text-align: center;
-    color: #8430FF;
+    padding-top:15em;
+    padding-bottom: 15em;
+    
+    background-image: url("images/image-liege-wallpaper.jpg");
+    background-size: cover;
+    
     
 }
 
+main {
+    border-top: 1px solid white;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: rgb(114, 114, 114);
+}
+
+.header__div {
+    
+
+    margin-left: 3em;
+    width: 250px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+    background-color: #C6C4C4;
+    opacity: 0.83;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.title {
+opacity: inherit;
+color: #FFFFFF;
+}
+
 .main__section-primary {
-    background-color: #2CE84A;
+    
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.main__container {
+    border-bottom: 1px solid white;
+    margin-right: -2em;
+    margin-left: -2em;
+
+}
+
+.first-container {
+    background-color: black;
+
+    padding-left: 2em;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    
+}
+
+.second-container {
+    padding-left: 10em;
+    padding-right: 2em;
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
 .main__section-video {
-    background-color: #2F81FA;
-    margin-top: -2em;
+
+    background-color: white;
+    
     padding-top: 2em;
     padding-bottom: 2em;
+    margin-top: -2em;
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+.main__section-video__container {
+    display: flex;
+    justify-content: center;
 }
 
 .main__section-secondary {
-    background-color: #2CE84A;
-    margin-top: -2em;
+    background-color: black;
+    
     padding-top: 2em;
     padding-bottom: 2em;
+
+    margin-left: -2em;
+    margin-right: -2em;
+
+    
+    
+}
+
+.section-bot {
+    line-height: 57px;
+    letter-spacing: 0.315em;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
     
 }
 
@@ -41,4 +142,6 @@ main {
     margin-top: -2em;
     padding-top: 2em;
     padding-bottom: 2em;
+
+    
 }
